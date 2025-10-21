@@ -35,6 +35,7 @@ const Register = () => {
   return (
     <div style={{ maxWidth: 400, margin: 'auto', marginTop: 50 }}>
       <h2>Create a new account</h2>
+      <h1>updateeeeeeeeeeeeee</h1>
       <form onSubmit={handleRegister} noValidate>
         <input
           type="text"
