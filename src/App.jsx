@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     async function checkUpdate() {
       try {
-        const res = await fetch('https://github.com/ahmedmami123/tauri.git');
+        const res = await fetch('https://raw.githubusercontent.com/ahmedmami123/tauri/main/update.json');
         const data = await res.json();
 
         const lastHash = localStorage.getItem('lastUpdateHash');
